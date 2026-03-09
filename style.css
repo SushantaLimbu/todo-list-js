@@ -1,0 +1,63 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin: auto;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  background-color: rgb(245, 245, 171);
+  height: min-content;
+  padding-right: 50px;
+}
+
+.left button {
+    white-space: nowrap;  
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+#todoInput {
+    flex: 1;
+    height: min-content;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.right {
+  width: 50%;
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+    list-style-type: square;
+}
+
+ul {
+    margin: 0;
+}
+
+button {
+  margin-left: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#cancelBtn {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+

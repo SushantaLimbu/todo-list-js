@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Todo List</h1>
+    <div class="container">
+      <!-- LEFT SIDE -->
+      <div class="left">
+        <input type="text" id="todoInput" placeholder="Enter new task..." />
+        <button onclick="addItem()">Add New Item</button>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="right">
+        <ul id="todoList">
+          <li>
+            Example item
+            <button id="cancelBtn" onclick="removeItem(this)">X</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
